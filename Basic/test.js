@@ -1,4 +1,8 @@
-const prompt = require("prompt-sync")()
+const obj = {
+    house: '456',
+    post: '7890'
+};
 
-var num = 10 
-console.log(num%6)
+var array = Object.keys(obj)
+
+console.log(array)
